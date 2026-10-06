@@ -1,0 +1,18 @@
+# Web framework + server
+fastapi>=0.115
+uvicorn[standard]>=0.30
+# Database (ORM)
+SQLAlchemy>=2.0.40
+# Validation (+ email checks)
+pydantic>=2.11
+email-validator>=2.2
+# Security: password hashing + JWT tokens
+bcrypt>=4.2
+PyJWT>=2.9
+# Settings from .env
+python-dotenv>=1.0
+# Calls to the Groq LLM API (AI skill test)
+httpx>=0.27
+# Machine learning (AI Picks)
+numpy>=2.1
+scikit-learn>=1.6

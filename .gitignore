@@ -1,0 +1,17 @@
+# secrets
+.env
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+backend/data/*.db
+backend/data/*.db-*
+backend/data/model.pkl
+# Node
+node_modules/
+dist/
+# Editors
+.idea/
+.vscode/
